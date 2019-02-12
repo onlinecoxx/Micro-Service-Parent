@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer
 
-object AppRunner extends App {
-  SpringApplication.run(classOf[AppRunner])
+object EurekaRegisterRunner extends App {
+  SpringApplication.run(classOf[EurekaRegisterRunner])
 }
 
 @EnableEurekaServer
 @SpringBootApplication
-class AppRunner
+class EurekaRegisterRunner
